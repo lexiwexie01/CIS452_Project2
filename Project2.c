@@ -177,7 +177,6 @@ void bakeRecipe() {
 }
 
 void getIngredient(int id) {
-    // NOTE: We could totally make this way more efficient, but we aren't required
     if (id <= 5) {
         // Pantry ingredient
         // pantry semaphore call
